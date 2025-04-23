@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$/../../src/main"/>
+	<levels>
+		<level name="Gradle: com.zaxxer:HikariCP:6.3.0" value="project"/>
+		<level name="Gradle: org.xerial:sqlite-jdbc:3.49.1.0" value="project"/>
+		<level name="Gradle: com.google.guava:guava:33.4.8-jre" value="project"/>
+		<level name="Gradle: org.slf4j:slf4j-api:1.7.36" value="project"/>
+		<level name="Gradle: com.google.guava:failureaccess:1.0.3" value="project"/>
+		<level name="Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" value="project"/>
+		<level name="Gradle: org.jspecify:jspecify:1.0.0" value="project"/>
+		<level name="Gradle: com.google.errorprone:error_prone_annotations:2.36.0" value="project"/>
+		<level name="Gradle: com.google.j2objc:j2objc-annotations:3.0.0" value="project"/>
+	</levels>
+</component>
