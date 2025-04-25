@@ -18,7 +18,7 @@ public class Connection {
     }
     public Connection getConnection() {
         try {
-            System.out.println("Conexión exitada...");
+            System.out.println("Conexión exitosa...");
             return (Connection) ds.getConnection();
 
         }catch(SQLException e) {

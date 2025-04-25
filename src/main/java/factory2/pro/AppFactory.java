@@ -12,10 +12,13 @@ public class AppFactory {
 	public static void main(String[] args) {
 		Map<String, Class> componentes = new HashMap<String, Class>();
 		Factory fac = new FactoryImpl();
-		fac.init("com.model");
+		fac.init("factory2.model");
 		
 		Computadora pc = fac.create("pc");
 		Computadora laptop = fac.create("laptop");
 		Computadora server = fac.create("server");
+
+		System.out.println("aaa");
+		System.out.println(pc.toString());
 	}
 }
