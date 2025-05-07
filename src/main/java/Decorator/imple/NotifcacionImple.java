@@ -1,6 +1,6 @@
-package com.imple;
+package Decorator.imple;
 
-import com.inter.Notificacion;
+import Decorator.inter.Notificacion;
 
 public class NotifcacionImple implements Notificacion {
     @Override

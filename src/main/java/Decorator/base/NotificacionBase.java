@@ -1,6 +1,6 @@
-package com.base;
+package Decorator.base;
 
-import com.inter.Notificacion;
+import Decorator.inter.Notificacion;
 
 public class NotificacionBase implements Notificacion {
     @Override

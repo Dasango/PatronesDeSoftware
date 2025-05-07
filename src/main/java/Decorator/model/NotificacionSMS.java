@@ -1,7 +1,9 @@
-package com.model;
+package Decorator.model;
 
-import com.inter.Notificacion;
+import Decorator.anotaciones.TipoNotificacion;
+import Decorator.inter.Notificacion;
 
+@TipoNotificacion("SMS")
 public class NotificacionSMS  extends  NotificacionDecorator{
 
     public NotificacionSMS (Notificacion noti) {

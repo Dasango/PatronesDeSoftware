@@ -1,7 +1,7 @@
-package com.model;
+package Decorator.model;
 
-import com.imple.NotifcacionImple;
-import com.inter.Notificacion;
+import Decorator.imple.NotifcacionImple;
+import Decorator.inter.Notificacion;
 
 public  abstract class NotificacionDecorator implements Notificacion {
 

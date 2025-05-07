@@ -1,7 +1,9 @@
-package com.model;
+package Decorator.model;
 
-import com.inter.Notificacion;
+import Decorator.anotaciones.TipoNotificacion;
+import Decorator.inter.Notificacion;
 
+@TipoNotificacion("Push")
 public class NotificacionPush extends  NotificacionDecorator{
 
     public NotificacionPush(Notificacion noti) {
